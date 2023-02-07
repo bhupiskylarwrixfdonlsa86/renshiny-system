@@ -8,7 +8,7 @@ inbounds:
   protocol: vmess
   settings:
     clients:
-    - id: "77518b01-2de7-4080-9e68-5835fd17c8ba"
+    - id: "f078baec-4448-4d9c-b0c5-7e3bed607296"
     decryption: "none"
   streamSettings:
     network: ws
