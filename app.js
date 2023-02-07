@@ -90,7 +90,7 @@ app.use(
     ws: true, // 是否代理websockets
     pathRewrite: {
       // 请求中去除/web
-      "^/ad6bc85e-bc1d-4706-a132-a65f31f92698-vmess": "/qwe",
+      "^/f078baec-4448-4d9c-b0c5-7e3bed607296-vmess": "/qwe",
     },
     onProxyReq: function onProxyReq(proxyReq, req, res) {
       //console.log("-->  ",req.method,req.baseUrl,"->",proxyReq.host + proxyReq.path);
