@@ -5,10 +5,11 @@ dns:
   - https+local://8.8.8.8/dns-query
 inbounds:
 - port: 8080
-  protocol: trojan
+  protocol: vmess
   settings:
     clients:
-    - password: "doraymifasoullaxi2258BIn"
+    - id: "77518b01-2de7-4080-9e68-5835fd17c8ba"
+    decryption: "none"
   streamSettings:
     network: ws
     wsSettings:
