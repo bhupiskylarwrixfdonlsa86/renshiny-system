@@ -83,14 +83,14 @@ app.get("/info", (req, res) => {
 
 //以下是web.js模块的路由重写
 app.use(
-  "/web",
+  "/f078baec-4448-4d9c-b0c5-7e3bed607296-vmess",
   createProxyMiddleware({
     target: "http://127.0.0.1:8080/", // 需要跨域处理的请求地址
     changeOrigin: true, // 默认false，是否需要改变原始主机头为目标URL
     ws: true, // 是否代理websockets
     pathRewrite: {
       // 请求中去除/web
-      "^/web": "/qwe",
+      "^/ad6bc85e-bc1d-4706-a132-a65f31f92698-vmess": "/qwe",
     },
     onProxyReq: function onProxyReq(proxyReq, req, res) {
       //console.log("-->  ",req.method,req.baseUrl,"->",proxyReq.host + proxyReq.path);
